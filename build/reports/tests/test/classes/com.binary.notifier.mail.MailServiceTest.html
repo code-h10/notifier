@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - MailServiceTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>MailServiceTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/com.binary.notifier.mail.html">com.binary.notifier.mail</a> &gt; MailServiceTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">1</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">5.856s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">testSendMail()</td>
+<td class="success">5.856s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>23:22:32.712 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+23:22:32.734 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+23:22:32.791 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.binary.notifier.mail.MailServiceTest] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+23:22:32.812 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.binary.notifier.mail.MailServiceTest], using SpringBootContextLoader
+23:22:32.818 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.binary.notifier.mail.MailServiceTest]: class path resource [com/binary/notifier/mail/MailServiceTest-context.xml] does not exist
+23:22:32.819 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.binary.notifier.mail.MailServiceTest]: class path resource [com/binary/notifier/mail/MailServiceTestContext.groovy] does not exist
+23:22:32.819 [Test worker] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.binary.notifier.mail.MailServiceTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+23:22:32.820 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.binary.notifier.mail.MailServiceTest]: MailServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+23:22:32.880 [Test worker] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.binary.notifier.mail.MailServiceTest]
+23:22:33.006 [Test worker] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [/Users/hwang-il-yeong/Downloads/notifier/build/classes/java/main/com/binary/notifier/NotifierApplication.class]
+23:22:33.007 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.binary.notifier.NotifierApplication for test class com.binary.notifier.mail.MailServiceTest
+23:22:33.169 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [com.binary.notifier.mail.MailServiceTest]: using defaults.
+23:22:33.170 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+23:22:33.205 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Skipping candidate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener] due to a missing dependency. Specify custom listener classes or make the default listener classes and their required dependencies available. Offending class: [org/springframework/transaction/interceptor/TransactionAttributeSource]
+23:22:33.206 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Skipping candidate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener] due to a missing dependency. Specify custom listener classes or make the default listener classes and their required dependencies available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
+23:22:33.207 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@e3cee7b, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@71e9a896, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@6b9267b, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@408b35bf, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@29ad44e3, org.springframework.test.context.support.DirtiesContextTestExecutionListener@15bcf458, org.springframework.test.context.event.EventPublishingTestExecutionListener@5af9926a, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@43c67247, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@fac80, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@726386ed, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@649f2009, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@14bb2297, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@69adf72c]
+23:22:33.213 [Test worker] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@750fe12e testClass = MailServiceTest, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@f8908f6 testClass = MailServiceTest, locations = '{}', classes = '{class com.binary.notifier.NotifierApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@13f17eb4, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@698122b2, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@c1bd0be, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@4b3a45f1, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@3fa2213, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@7975d1d8], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -&gt; true]], class annotated with @DirtiesContext [false] with mode [null].
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.7.7)
+
+2023-01-15 23:22:33.816  INFO 81225 --- [    Test worker] c.binary.notifier.mail.MailServiceTest   : Starting MailServiceTest using Java 11.0.9 on hwang-il-yeong-ui-MacBookPro-3.local with PID 81225 (started by hwang-il-yeong in /Users/hwang-il-yeong/Downloads/notifier)
+2023-01-15 23:22:33.820  INFO 81225 --- [    Test worker] c.binary.notifier.mail.MailServiceTest   : No active profile set, falling back to 1 default profile: &quot;default&quot;
+2023-01-15 23:22:35.999  INFO 81225 --- [    Test worker] c.binary.notifier.mail.MailServiceTest   : Started MailServiceTest in 2.72 seconds (JVM running for 5.511)
+DEBUG: Jakarta Mail version 1.6.7
+DEBUG: successfully loaded resource: /META-INF/javamail.default.providers
+DEBUG: Tables of loaded providers
+DEBUG: Providers Listed By Class Name: {com.sun.mail.smtp.SMTPTransport=javax.mail.Provider[TRANSPORT,smtp,com.sun.mail.smtp.SMTPTransport,Oracle], com.sun.mail.imap.IMAPSSLStore=javax.mail.Provider[STORE,imaps,com.sun.mail.imap.IMAPSSLStore,Oracle], com.sun.mail.pop3.POP3Store=javax.mail.Provider[STORE,pop3,com.sun.mail.pop3.POP3Store,Oracle], com.sun.mail.smtp.SMTPSSLTransport=javax.mail.Provider[TRANSPORT,smtps,com.sun.mail.smtp.SMTPSSLTransport,Oracle], com.sun.mail.imap.IMAPStore=javax.mail.Provider[STORE,imap,com.sun.mail.imap.IMAPStore,Oracle], com.sun.mail.pop3.POP3SSLStore=javax.mail.Provider[STORE,pop3s,com.sun.mail.pop3.POP3SSLStore,Oracle]}
+DEBUG: Providers Listed By Protocol: {imap=javax.mail.Provider[STORE,imap,com.sun.mail.imap.IMAPStore,Oracle], smtp=javax.mail.Provider[TRANSPORT,smtp,com.sun.mail.smtp.SMTPTransport,Oracle], pop3=javax.mail.Provider[STORE,pop3,com.sun.mail.pop3.POP3Store,Oracle], imaps=javax.mail.Provider[STORE,imaps,com.sun.mail.imap.IMAPSSLStore,Oracle], smtps=javax.mail.Provider[TRANSPORT,smtps,com.sun.mail.smtp.SMTPSSLTransport,Oracle], pop3s=javax.mail.Provider[STORE,pop3s,com.sun.mail.pop3.POP3SSLStore,Oracle]}
+DEBUG: successfully loaded resource: /META-INF/javamail.default.address.map
+DEBUG: getProvider() returning javax.mail.Provider[TRANSPORT,smtp,com.sun.mail.smtp.SMTPTransport,Oracle]
+DEBUG SMTP: useEhlo true, useAuth true
+DEBUG SMTP: trying to connect to host &quot;smtp.gmail.com&quot;, port 587, isSSL false
+220 smtp.gmail.com ESMTP 201-20020a6303d2000000b004b4d4de54absm9864343pgd.59 - gsmtp
+DEBUG SMTP: connected to host &quot;smtp.gmail.com&quot;, port: 587
+EHLO localhost
+250-smtp.gmail.com at your service, [220.79.171.188]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+DEBUG SMTP: Found extension &quot;SIZE&quot;, arg &quot;35882577&quot;
+DEBUG SMTP: Found extension &quot;8BITMIME&quot;, arg &quot;&quot;
+DEBUG SMTP: Found extension &quot;STARTTLS&quot;, arg &quot;&quot;
+DEBUG SMTP: Found extension &quot;ENHANCEDSTATUSCODES&quot;, arg &quot;&quot;
+DEBUG SMTP: Found extension &quot;PIPELINING&quot;, arg &quot;&quot;
+DEBUG SMTP: Found extension &quot;CHUNKING&quot;, arg &quot;&quot;
+DEBUG SMTP: Found extension &quot;SMTPUTF8&quot;, arg &quot;&quot;
+STARTTLS
+220 2.0.0 Ready to start TLS
+EHLO localhost
+250-smtp.gmail.com at your service, [220.79.171.188]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+DEBUG SMTP: Found extension &quot;SIZE&quot;, arg &quot;35882577&quot;
+DEBUG SMTP: Found extension &quot;8BITMIME&quot;, arg &quot;&quot;
+DEBUG SMTP: Found extension &quot;AUTH&quot;, arg &quot;LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH&quot;
+DEBUG SMTP: Found extension &quot;ENHANCEDSTATUSCODES&quot;, arg &quot;&quot;
+DEBUG SMTP: Found extension &quot;PIPELINING&quot;, arg &quot;&quot;
+DEBUG SMTP: Found extension &quot;CHUNKING&quot;, arg &quot;&quot;
+DEBUG SMTP: Found extension &quot;SMTPUTF8&quot;, arg &quot;&quot;
+DEBUG SMTP: protocolConnect login, host=smtp.gmail.com, user=ilyoung6016@gmail.com, password=&lt;non-null&gt;
+DEBUG SMTP: Attempt to authenticate using mechanisms: LOGIN PLAIN DIGEST-MD5 NTLM XOAUTH2 
+DEBUG SMTP: Using mechanism LOGIN
+DEBUG SMTP: AUTH LOGIN command trace suppressed
+DEBUG SMTP: AUTH LOGIN succeeded
+DEBUG SMTP: use8bit false
+MAIL FROM:&lt;hwang-il-yeong@localhost&gt;
+250 2.1.0 OK 201-20020a6303d2000000b004b4d4de54absm9864343pgd.59 - gsmtp
+RCPT TO:&lt;ddd6016@naver.com&gt;
+250 2.1.5 OK 201-20020a6303d2000000b004b4d4de54absm9864343pgd.59 - gsmtp
+DEBUG SMTP: Verified Addresses
+DEBUG SMTP:   ddd6016@naver.com
+DATA
+354  Go ahead 201-20020a6303d2000000b004b4d4de54absm9864343pgd.59 - gsmtp
+Date: Sun, 15 Jan 2023 23:22:39 +0900 (KST)
+To: ddd6016@naver.com
+Message-ID: &lt;1122885157.0.1673792559883@localhost&gt;
+Subject: =?UTF-8?B?7YWM7Iqk7Yq4?=
+MIME-Version: 1.0
+Content-Type: text/html;charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+    &lt;head&gt;
+       =20
+        &lt;meta http-equiv=3D&quot;Content-Type&quot; content=3D&quot;text/html; charset=3DU=
+TF-8&quot; /&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+        &lt;p&gt;??greeting_ko_KR??&lt;/p&gt;
+       =20
+        &lt;p&gt;
+            You have been successfully subscribed to the &lt;b&gt;Fake newsletter=
+&lt;/b&gt; on
+            &lt;span&gt;2023=EB=85=84 1=EC=9B=94 15=EC=9D=BC =EC=98=A4=ED=9B=84 1=
+1=EC=8B=9C 22=EB=B6=84 36=EC=B4=88 KST&lt;/span&gt;
+        &lt;/p&gt;
+        &lt;p&gt;Your hobbies are:&lt;/p&gt;
+        &lt;ul&gt;
+            &lt;li&gt;Cinema&lt;/li&gt;
+            &lt;li&gt;Sports&lt;/li&gt;
+            &lt;li&gt;Music&lt;/li&gt;
+           =20
+           =20
+        &lt;/ul&gt;
+        &lt;p&gt;
+            You can find &lt;b&gt;your inlined image&lt;/b&gt; just below this text.
+        &lt;/p&gt;
+        &lt;p&gt;
+            &lt;img src=3D&quot;cid:TEST&quot; /&gt;
+        &lt;/p&gt;
+        &lt;p&gt;
+            Regards, &lt;br /&gt;
+            &lt;em&gt;The Thymeleaf Team&lt;/em&gt;
+        &lt;/p&gt;
+    &lt;/body&gt;
+&lt;/html&gt;
+.
+250 2.0.0 OK  1673792561 201-20020a6303d2000000b004b4d4de54absm9864343pgd.59 - gsmtp
+DEBUG SMTP: message successfully delivered to mail server
+QUIT
+221 2.0.0 closing connection 201-20020a6303d2000000b004b4d4de54absm9864343pgd.59 - gsmtp
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 7.6</a> at 2023. 1. 15. 오후 11:22:42</p>
+</div>
+</div>
+</body>
+</html>
