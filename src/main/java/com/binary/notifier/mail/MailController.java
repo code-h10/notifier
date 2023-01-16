@@ -19,7 +19,7 @@ public class MailController {
     }
 
     @PostMapping("/attachment")
-    public void sendMailWithAttachment(MailDto mailDto) {
-
+    public void sendMailWithAttachment(MailDto mail) {
+        mailService.sendEmailWithAttachment(mail);
     }
 }

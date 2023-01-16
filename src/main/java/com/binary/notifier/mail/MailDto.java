@@ -12,4 +12,7 @@ public class MailDto {
     private String address;
     private String subject;
     private String text;
+    private String attachmentContentType;
+    private String attachmentFileName;
+    private byte[] attachmentBytes;
 }
