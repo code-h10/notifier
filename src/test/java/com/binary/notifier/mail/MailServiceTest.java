@@ -29,7 +29,7 @@ class MailServiceTest {
         ctx.setVariable("hobbies", Arrays.asList("Cinema", "Sports", "Music"));
         ctx.setVariable("imageResourceName", "TestFileName");
 
-        final String htmlContent = templateEngine.process("body", ctx);
+        final String htmlContent = templateEngine.process("test", ctx);
 
         MailDto email = new MailDto();
         email.setAddress("test@naver.com");
